@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://api-uat.unionbankph.com/partners/sb",
+    "partnerAuthPath": "/partners/v1/oauth2/token",
+    "instapayPath": "/partners/v2/instapay/transfers/single",
+    "pesonetPath": "/partners/v2/pesonet/transfers/single",
+    "getTransferStatusPath": "/partners/v2/{method}/transfers/single/{referenceId}",
+    "instapayGetBanksPath": "/partners/v2/instapay/banks",
+    "pesonetGetBanksPath": "/partners/v2/pesonet/banks",
+    "clientId": "5d7c938f-d4c2-48f0-9a7e-36df18400198",
+    "clientSecret": "G1yG5gK1cR0fJ2eA6mA8xY8uS3mP2qP2cT4fH1xT6lU3jV3xT6",
+    "partnerId": "5dff2cdf-ef15-48fb-a87b-375ebff415bb",
+    "username": "partner_sb",
+    "password": "p@ssw0rd",
+    "scope": "transfers payments instapay transfers_pesonet"
+}
